@@ -1,0 +1,121 @@
+body{
+    background-color: #E2B4BD;
+}
+
+.webTitle{
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #915C62;
+    color: rgb(255, 255, 255);
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background-color: rgb(255, 255, 255);
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+
+.cart img {
+    height: 30px;
+}
+
+#menu{
+    display: none;
+}
+
+.menu {
+    flex-direction: column;
+    width: 90px;
+    right: 0;
+    position: absolute; /* Positioned relative to the hamburger */
+    top: 88px; /* Adjust to align below the hamburger */
+    background-color: #444;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 100; 
+}
+
+.menu a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+}
+
+.menu a:hover {
+    background-color: #444;
+}
+
+.quote-1, .quote-2, .quote-3, .quote-4{
+    padding: 80px;
+    font-size: 30px;
+    font-family: Lobster, cursive;
+}
+
+.author{
+    float: right;
+    margin-right: 30%;
+}
+
+.quote-mark{
+    
+}
+
+@media (min-width: 500px) {
+    .menu {
+        display: flex;
+        /* position: static; */
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* .hamburger {
+        display: none;
+    } */
+
+    .menu a {
+        border: none;
+    }
+}
+
+/* create media query 
+to make menu text grow smaller with the fame */
+
+footer{
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin: 10px;
+}
+
+footer a {
+    color: #2c2c2c;
+    margin: 10px;
+}

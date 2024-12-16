@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peters' Baking Co.</title>
+    <link rel="stylesheet" href="/css/signup.css">
+</head>
+<header>
+
+</header>
+<body>
+    <form>
+        <fieldset>
+            <label for="first-name"> First Name <input type="text" id="first-name" required /></label>
+            <label for="last-name"> Last Name <input type="text" id="last-name" required /></label>
+            <label for="email"> Email <input type="email" id="email" required /></label>
+            <label for="new-password"> Password <input type="password" id="new-password" pattern="[a-z0-9]{8,20}"
+                    required /></label>
+            <label for="msg-alerts">
+                    <input type="checkbox"/> Receive text alerts
+            </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit" />
+
+    </form>
+</body>
+
+</html>

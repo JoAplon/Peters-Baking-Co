@@ -1,0 +1,17 @@
+body{
+    background-color: #E2B4BD;
+}
+
+label{
+    display: block;
+    margin: 0.9rem 0;
+}
+
+form{
+    
+}
+
+#submit{
+    padding: 10px;
+    margin: 10px;
+}
